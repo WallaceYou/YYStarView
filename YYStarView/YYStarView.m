@@ -191,6 +191,8 @@
 
 - (void)setStarImage {
     
+    NSBundle *resourcesBundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"YYStarView" ofType:@"bundle"]];
+    
     if (!self.starBrightImageName) {
         self.starBrightImageName = @"yy_star_bright";
     }
@@ -207,12 +209,12 @@
     UIImage *starDarkHighlightedImage = [UIImage imageNamed:[self.starDarkImageName stringByAppendingString:@"_highlighed"]];;
     
     if (starBrightImage == nil) {
-        starBrightImage = [UIImage imageNamed:@"yy_star_bright"];
+        starBrightImage = [UIImage imageNamed:@"yy_star_bright" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
         starBrightHighlightedImage = nil;
     }
     
     if (starDarkImage == nil) {
-        starDarkImage = [UIImage imageNamed:@"yy_star_dark"];
+        starDarkImage = [UIImage imageNamed:@"yy_star_dark" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
         starDarkHighlightedImage = nil;
     }
     

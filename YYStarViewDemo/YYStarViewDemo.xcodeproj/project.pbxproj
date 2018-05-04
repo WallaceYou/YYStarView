@@ -26,9 +26,8 @@
 		C41E80A920998C3D0004E1F8 /* StarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C41E80A820998C3D0004E1F8 /* StarViewController.m */; };
 		C41E80BA209AE1B20004E1F8 /* UIButton+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = C41E80B7209AE1B20004E1F8 /* UIButton+Custom.m */; };
 		C41E80BB209AE1B20004E1F8 /* UIImage+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C41E80B9209AE1B20004E1F8 /* UIImage+UIColor.m */; };
-		C41E80C1209AE3300004E1F8 /* yy_star_bright@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C41E80BD209AE32F0004E1F8 /* yy_star_bright@2x.png */; };
-		C41E80C2209AE3300004E1F8 /* yy_star_dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C41E80BE209AE32F0004E1F8 /* yy_star_dark@2x.png */; };
 		C41E80C3209AE3300004E1F8 /* YYStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C41E80C0209AE32F0004E1F8 /* YYStarView.m */; };
+		C41E825D209C65850004E1F8 /* YYStarView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C41E825C209C65850004E1F8 /* YYStarView.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,10 +72,9 @@
 		C41E80B7209AE1B20004E1F8 /* UIButton+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Custom.m"; sourceTree = "<group>"; };
 		C41E80B8209AE1B20004E1F8 /* UIImage+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIColor.h"; sourceTree = "<group>"; };
 		C41E80B9209AE1B20004E1F8 /* UIImage+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIColor.m"; sourceTree = "<group>"; };
-		C41E80BD209AE32F0004E1F8 /* yy_star_bright@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yy_star_bright@2x.png"; sourceTree = "<group>"; };
-		C41E80BE209AE32F0004E1F8 /* yy_star_dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yy_star_dark@2x.png"; sourceTree = "<group>"; };
 		C41E80BF209AE32F0004E1F8 /* YYStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYStarView.h; sourceTree = "<group>"; };
 		C41E80C0209AE32F0004E1F8 /* YYStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYStarView.m; sourceTree = "<group>"; };
+		C41E825C209C65850004E1F8 /* YYStarView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YYStarView.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,10 +171,9 @@
 		C41E80BC209AE32F0004E1F8 /* YYStarView */ = {
 			isa = PBXGroup;
 			children = (
-				C41E80BD209AE32F0004E1F8 /* yy_star_bright@2x.png */,
-				C41E80BE209AE32F0004E1F8 /* yy_star_dark@2x.png */,
 				C41E80BF209AE32F0004E1F8 /* YYStarView.h */,
 				C41E80C0209AE32F0004E1F8 /* YYStarView.m */,
+				C41E825C209C65850004E1F8 /* YYStarView.bundle */,
 			);
 			name = YYStarView;
 			path = ../../YYStarView;
@@ -239,10 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C41E80C1209AE3300004E1F8 /* yy_star_bright@2x.png in Resources */,
 				C41353D420995E2C00084825 /* LaunchScreen.storyboard in Resources */,
+				C41E825D209C65850004E1F8 /* YYStarView.bundle in Resources */,
 				C41353D120995E2C00084825 /* Assets.xcassets in Resources */,
-				C41E80C2209AE3300004E1F8 /* yy_star_dark@2x.png in Resources */,
 				C41353CF20995E2200084825 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
