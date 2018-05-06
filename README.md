@@ -70,7 +70,7 @@ starView.starBrightImageName = @"star_bright";
 //如果你需要设置亮星与暗星的高亮图片，也是支持的，你只需要将高亮图片名改为正常图片加后缀"_highlighted"即可
 starView.starDarkImageName = @"star_dark";
 
-//通过starScore设置评分
+//通过属性starScore设置评分
 label.text = starView.starScore;//伪代码
 
 [self.view addSubview:starView];
