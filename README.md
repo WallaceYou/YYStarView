@@ -80,3 +80,14 @@ label.text = starView.starScore;//伪代码
     make.top.mas_equalTo(100);
 }];
 ```
+
+* 效果
+
+![图片](https://github.com/WallaceYou/YYStarView/blob/master/ShowImage/YYStarView-Show2.png)
+
+
+* 另外，YYStarView还支持反复设置，效果：
+
+![图片](https://github.com/WallaceYou/YYStarView/blob/master/ShowImage/YYStarView-Show3.gif)
+
+
