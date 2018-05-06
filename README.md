@@ -92,5 +92,5 @@ label.text = starView.starScore;//伪代码
 
 
 # Last
-* 如果你感觉不错，不要吝啬，给颗星鼓励一下吧\~😊thank you very mach for give me a star~
+* 如果你感觉不错，不要吝啬，给颗星鼓励一下吧\~😊thank you very much for give me a star~
 * 另外，YYStarView目前还不支持半颗星显示与点击，但类似需求比较低，如果有需求以后可以更新个版本加上去
