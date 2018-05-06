@@ -39,3 +39,7 @@ starView.starClick = ^{
 }];
 ```
 * 效果
+
+![图片](https://github.com/WallaceYou/YYStarView/blob/master/ShowImage/YYStarView-Show1.gif)
+
+
