@@ -1,10 +1,9 @@
 //
 //  UIImage+UIColor.h
-//  CEAir
+//  YYStarViewDemo
 //
-//
-//  Created by shiqianren on 2017/6/14.
-//  Copyright © 2017年 shiqianren. All rights reserved.
+//  Created by youyu on 2018/4/28.
+//  Copyright © 2018年 youyu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

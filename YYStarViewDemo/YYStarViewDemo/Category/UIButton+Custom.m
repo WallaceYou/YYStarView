@@ -1,9 +1,9 @@
 //
 //  UIButton+Custom.m
-//  SupremeGolfPro
+//  YYStarViewDemo
 //
-//  Created by youyu on 2018/4/27.
-//  Copyright © 2018年 software. All rights reserved.
+//  Created by youyu on 2018/4/28.
+//  Copyright © 2018年 youyu. All rights reserved.
 //
 
 #import "UIButton+Custom.h"

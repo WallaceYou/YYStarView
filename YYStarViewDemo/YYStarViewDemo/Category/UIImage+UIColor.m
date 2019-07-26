@@ -1,9 +1,9 @@
 //
 //  UIImage+UIColor.m
-//  CEAir
+//  YYStarViewDemo
 //
-//  Created by 郑海清 on 16/6/22.
-//  Copyright © 2016年 hengtiansoft. All rights reserved.
+//  Created by youyu on 2018/4/28.
+//  Copyright © 2018年 youyu. All rights reserved.
 //
 
 #import "UIImage+UIColor.h"
